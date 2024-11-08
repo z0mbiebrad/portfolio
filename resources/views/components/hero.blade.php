@@ -8,28 +8,29 @@
     <div class="flex flex-wrap text-white">
         <div class="w-full sm:w-8/12 mb-10">
             <div class="container mx-auto h-full sm:p-10">
-                <nav class="flex px-4 justify-between items-center">
-                    <div>
-                        <img src="https://image.flaticon.com/icons/svg/497/497348.svg" alt="" class="w-8">
-                    </div>
-                </nav>
                 <img src="{{ asset('images/family.jpeg') }}"
-                    alt="" class="w-full h-48 my-20 object-cover sm:h-screen sm:w-4/12">
+                    alt="" class="w-full h-48 my-16 object-cover sm:h-screen sm:w-4/12">
                 <header class="container px-4 lg:flex items-center h-full lg:mt-0">
                     <div class="w-full">
                         <h1 class="text-4xl lg:text-6xl font-bold">Hi! I'm <span class="text-indigo-400">Bradley
                                 Evans</span>. <br>
                             Its nice to meet <span class="text-indigo-400">you</span>!</h1>
-                        <div class="w-3/4 mx-auto h-1 bg-indigo-400 my-4"></div>
+                        <div class="w-3/4 my-8 mx-auto h-1 bg-indigo-400"></div>
                         <p class="text-xl mb-10">I am a full stack web
                             developer skilled in Laravel, JavaScript, and responsive design. I create efficient,
                             user-friendly web applications with clean, maintainable code. Open to opportunities where I
                             can apply my technical expertise in a collaborative setting.</p>
                         <div class="mt-10 flex items-center justify-center gap-x-6">
                             <a href="#"
-                                class="border-b border-white text-md font-semibold text-white">Projects</a>
+                                class="border-b border-white text-md font-semibold text-white flex gap-x-1">
+                                <x-circle-stack />
+                                Projects
+                            </a>
                             <a href="#"
-                                class="border-b border-white text-md font-semibold text-white">Services</a>
+                                class="border-b border-white text-md font-semibold text-white flex gap-x-1">
+                                Services
+                                <x-command />
+                            </a>
                         </div>
                     </div>
                 </header>
