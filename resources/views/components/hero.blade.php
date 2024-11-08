@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="flex flex-wrap text-white sm:justify-center">
-        <div class="w-full sm:w-11/12 sm:w-8/12 mb-10 max-w-5xl">
+        <div class="w-full sm:w-11/12 mb-10 max-w-5xl">
             <div class="container mx-auto h-full sm:flex sm:space-x-10 sm:p-10 sm:justify-between">
                 <img src="{{ asset('images/family.jpeg') }}"
                     alt="" class="w-full h-48 my-16 object-cover sm:h-screen sm:w-4/12">
