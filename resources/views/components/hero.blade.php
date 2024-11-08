@@ -5,16 +5,16 @@
             style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
         </div>
     </div>
-    <div class="flex flex-wrap text-white">
-        <div class="w-full sm:w-8/12 mb-10">
-            <div class="container mx-auto h-full sm:p-10">
+    <div class="flex flex-wrap text-white sm:justify-center">
+        <div class="w-full sm:w-11/12 sm:w-8/12 mb-10 max-w-5xl">
+            <div class="container mx-auto h-full sm:flex sm:space-x-10 sm:p-10 sm:justify-between">
                 <img src="{{ asset('images/family.jpeg') }}"
                     alt="" class="w-full h-48 my-16 object-cover sm:h-screen sm:w-4/12">
-                <header class="container px-4 lg:flex items-center h-full lg:mt-0">
+                <header class="container px-4 h-full sm:w-1/2 sm:flex sm:items-center">
                     <div class="w-full">
                         <h1 class="text-4xl lg:text-6xl font-bold">Hi! I'm <span class="text-indigo-400">Bradley
                                 Evans</span>. <br>
-                            Its nice to meet <span class="text-indigo-400">you</span>!</h1>
+                            It's nice to meet <span class="text-indigo-400">you</span>!</h1>
                         <div class="w-3/4 my-8 mx-auto h-1 bg-indigo-400"></div>
                         <p class="text-xl mb-10">I am a full stack web
                             developer skilled in Laravel, JavaScript, and responsive design. I create efficient,
