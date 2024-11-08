@@ -7,16 +7,16 @@
         <p class="flex-auto">
             {{ $description }}
         </p>
-        <p class="mt-6 flex justify-between">
-            <a href="{{ $website }}"
+        <p class="mt-6 gap-x-6 flex justify-center">
+            <a href="{{ $website }}" target="_blank" rel="noopener noreferrer"
                 class="border-b border-blue-400 flex items-center text-sm/6 font-semibold text-indigo-300">
-                <x-globe class="mr-2 h-4 text-blue-400"/>
+                <x-globe class="mr-2 h-4 text-blue-400" />
                 Website
             </a>
-            <a href="{{ $repository }}"
+            <a href="{{ $repository }}" target="_blank" rel="noopener noreferrer"
                 class="border-b border-blue-400 flex items-center text-sm/6 font-semibold text-indigo-300">
                 Repository
-                <x-github-logo class="ml-2 h-4 text-blue-400"/>
+                <x-github-logo class="ml-2 h-4 text-blue-400" />
             </a>
         </p>
     </dd>
