@@ -21,12 +21,12 @@
                             user-friendly web applications with clean, maintainable code. Open to opportunities where I
                             can apply my technical expertise in a collaborative setting.</p>
                         <div class="mt-10 flex items-center justify-center gap-x-6">
-                            <a href="#"
+                            <a href="#examples"
                                 class="border-b border-white text-md font-semibold text-white flex gap-x-1">
                                 <x-circle-stack />
-                                Projects
+                                Examples
                             </a>
-                            <a href="#"
+                            <a href="#services"
                                 class="border-b border-white text-md font-semibold text-white flex gap-x-1">
                                 Services
                                 <x-command />
