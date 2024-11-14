@@ -1,10 +1,10 @@
 <div id="services" class="bg-gray-900 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-4xl text-center">
+        <div class="mx-auto max-w-4xl lg:text-center">
             <h2 class="text-base/7 font-semibold text-indigo-400 underline"><a href="#contact">Dont see a plan for you?</a></h2>
             <p class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Select a package that suits you best!</p>
         </div>
-        <p class="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-400 sm:text-xl/8">Choose
+        <p class="mx-auto mt-6 max-w-2xl text-pretty lg:text-center text-lg font-medium text-gray-400 sm:text-xl/8">Choose
             an affordable package that’s packed with the best features for your companies needs!</p>
         <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <div class="rounded-3xl p-8 ring-1 ring-white/10 xl:p-10">
