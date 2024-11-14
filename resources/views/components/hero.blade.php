@@ -1,4 +1,4 @@
-<div class="relative isolate overflow-hidden pt-14">
+<div id="about" class="relative isolate overflow-hidden pt-14">
     <img src="{{ asset('images/back2.jpg') }}" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
     <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
         <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
