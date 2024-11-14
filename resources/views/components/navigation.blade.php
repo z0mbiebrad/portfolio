@@ -11,9 +11,9 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#" class="text-sm/6 font-semibold text-white">About</a>
-            <a href="#" class="text-sm/6 font-semibold text-white">Projects</a>
-            <a href="#" class="text-sm/6 font-semibold text-white">Contact</a>
+            <a href="#services" class="text-sm/6 font-semibold text-white">Services</a>
+            <a href="#examples" class="text-sm/6 font-semibold text-white">Examples</a>
+            <a href="#contact" class="text-sm/6 font-semibold text-white">Contact</a>
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
@@ -35,11 +35,13 @@
             <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/25">
                     <div class="space-y-2 py-6">
-                        <a href="#"
+                        <a href="#about"
                             class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">About</a>
-                        <a href="#projects"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Projects</a>
-                        <a href="#"
+                        <a href="#services"
+                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Services</a>
+                        <a href="#examples"
+                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Examples</a>
+                        <a href="#contact"
                             class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Contact</a>
                     </div>
                 </div>
