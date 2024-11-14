@@ -5,8 +5,13 @@
         <x-navigation />
 
         <x-hero />
+        
+        <x-services />
+
+        <x-projects />
+
+        <x-contact />
 
     </div>
 
-    <x-projects />
 </x-app-layout>
