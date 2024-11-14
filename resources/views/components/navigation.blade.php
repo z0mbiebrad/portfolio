@@ -36,13 +36,13 @@
                 <div class="-my-6 divide-y divide-gray-500/25">
                     <div class="space-y-2 py-6">
                         <a href="#about"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">About</a>
+                            class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">About</a>
                         <a href="#services"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Services</a>
+                            class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Services</a>
                         <a href="#examples"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Examples</a>
+                            class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Examples</a>
                         <a href="#contact"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Contact</a>
+                            class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Contact</a>
                     </div>
                 </div>
             </div>
@@ -60,6 +60,9 @@
 
         // Close the mobile menu
         jQuery('#close-menu-button').click(function() {
+            jQuery('#mobile-menu').addClass('hidden'); // Hide mobile menu
+        });
+        jQuery('.nav-link').click(function() {
             jQuery('#mobile-menu').addClass('hidden'); // Hide mobile menu
         });
     });
