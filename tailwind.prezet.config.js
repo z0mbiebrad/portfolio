@@ -16,6 +16,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Inter', ...defaultTheme.fontFamily.sans],
+                mono: ['Courier Prime', ...defaultTheme.fontFamily.mono],
             },
             maxWidth: {
                 '8xl': '88rem',

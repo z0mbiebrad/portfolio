@@ -19,14 +19,14 @@
         <div class="divide-y divide-gray-200">
             <div class="space-y-2 pb-8 md:space-y-5">
                 <h1
-                    class="font-display text-4xl font-bold tracking-tight text-gray-900"
+                    class="font-mono font-display text-4xl font-bold tracking-tight text-gray-900"
                 >
-                    Prezet Blog
+                    z0mbieblog
                 </h1>
 
                 <div class="justify-between sm:flex">
                     <p class="text-lg leading-7 text-gray-500">
-                        A blog created with Laravel and Tailwind.css
+                        Interesting or cool things I've learned while developing.
                     </p>
                     <div class="mt-4 block sm:mt-0">
                         @if ($currentTag)

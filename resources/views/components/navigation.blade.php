@@ -11,8 +11,8 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#services" class="text-sm/6 font-semibold text-white">Services</a>
-            <a href="#examples" class="text-sm/6 font-semibold text-white">Examples</a>
+            <a href="#services" class="text-sm/6 font-semibold text-white">About</a>
+            <a href="{{ route('prezet.index') }}" class="text-sm/6 font-semibold text-white">Blog</a>
             <a href="#contact" class="text-sm/6 font-semibold text-white">Contact</a>
         </div>
     </nav>
@@ -37,10 +37,8 @@
                     <div class="space-y-2 py-6">
                         <a href="#about"
                             class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">About</a>
-                        <a href="#services"
-                            class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Services</a>
-                        <a href="#examples"
-                            class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Examples</a>
+                        <a href="{{ route('prezet.index') }}"
+                            class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Blog</a>
                         <a href="#contact"
                             class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Contact</a>
                     </div>

@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     <url>
-        <loc>http://127.0.0.1:8000/prezet/installation</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/installation</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://127.0.0.1:8000/prezet/configuration</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/configuration</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://127.0.0.1:8000/prezet/index</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/index</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://127.0.0.1:8000/prezet/features/sitemap</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/features/sitemap</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://127.0.0.1:8000/prezet/features/markdown</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/features/markdown</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://127.0.0.1:8000/prezet/features/blade</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/features/blade</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://127.0.0.1:8000/prezet/features/ogimage</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/features/ogimage</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://127.0.0.1:8000/prezet/features/frontmatter</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/features/frontmatter</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://127.0.0.1:8000/prezet/features/images</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/features/images</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://127.0.0.1:8000/prezet/features/seo</loc>
-        <lastmod>2024-11-21T11:57:10+00:00</lastmod>
+        <loc>http://127.0.0.1:8000/blog/features/seo</loc>
+        <lastmod>2024-11-21T12:21:10+00:00</lastmod>
 
             </url>
 </urlset>
