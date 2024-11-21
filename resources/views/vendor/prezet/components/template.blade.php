@@ -83,6 +83,9 @@
         </style>
 
         <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- Fathom - beautiful, simple website analytics -->
+        <!-- Scripts -->
         <script
             defer
             src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.js"

@@ -1,7 +1,6 @@
 <header class="absolute inset-x-0 top-0 z-50">
     <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-            <x-nav-logo />
         </div>
         <div class="flex lg:hidden">
             <button id="open-menu-button" type="button"
@@ -35,11 +34,11 @@
             <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/25">
                     <div class="space-y-2 py-6">
-                        <a href="#about"
+                        <a href="{{ route('home')}}"
                             class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">About</a>
                         <a href="{{ route('prezet.index') }}"
                             class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Blog</a>
-                        <a href="#contact"
+                        <a href="/#contact"
                             class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Contact</a>
                     </div>
                 </div>

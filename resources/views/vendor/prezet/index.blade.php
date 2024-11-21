@@ -19,7 +19,7 @@
         <div class="divide-y divide-gray-200">
             <div class="space-y-2 pb-8 md:space-y-5">
                 <h1
-                    class="font-mono font-display text-4xl font-bold tracking-tight text-gray-900"
+                    class="my-16 font-mono font-display text-4xl font-bold tracking-tight text-gray-900"
                 >
                     z0mbieblog
                 </h1>
