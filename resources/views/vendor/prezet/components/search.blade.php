@@ -228,7 +228,7 @@ options: [],
         x-transition:leave-end="opacity-0"
         x-bind:aria-hidden="!open"
         x-on:keydown.esc.prevent.stop="closeCommandPalette()"
-        class="z-90 fixed inset-0 overflow-y-auto overflow-x-hidden bg-zinc-900/75 p-4 backdrop-blur-sm will-change-auto md:py-8 lg:px-8 lg:py-16"
+        class="z-[9999] fixed inset-0 overflow-y-auto overflow-x-hidden bg-zinc-900/75 p-4 backdrop-blur-sm will-change-auto md:py-8 lg:px-8 lg:py-16"
         tabindex="-1"
         role="dialog"
         aria-modal="true"
