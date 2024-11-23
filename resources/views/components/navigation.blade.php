@@ -10,9 +10,9 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#services" class="text-sm/6 font-semibold text-white">About</a>
+            <a href="{{ route('home') }}" class="text-sm/6 font-semibold text-white">About</a>
             <a href="{{ route('prezet.index') }}" class="text-sm/6 font-semibold text-white">Blog</a>
-            <a href="#contact" class="text-sm/6 font-semibold text-white">Contact</a>
+            <a href="/#contact" class="text-sm/6 font-semibold text-white">Contact</a>
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
