@@ -1,5 +1,5 @@
  <!-- Mobile menu, show/hide based on menu open state. -->
- <div id="mobile-menu" role="dialog" aria-modal="true" x-on:click="showSidebar = ! showSidebar">
+ <div id="mobile-menu" role="dialog"  aria-modal="true" x-on:click="showSidebar = ! showSidebar">
     <!-- Background backdrop, show/hide based on slide-over state. -->
     <div class="fixed inset-0 z-100"></div>
     <div
@@ -25,6 +25,31 @@
                         class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Contact</a>
                 </div>
             </div>
+            
         </div>
     </div>
 </div>
+<script>
+    const toggleButton = document.getElementById('theme-toggle');
+    const rootElement = document.documentElement;
+  
+    toggleButton.addEventListener('click', () => {
+        console.log('dark/light baby')
+      // Toggle the `dark` class on the <html> element
+      if (rootElement.classList.contains('dark')) {
+        rootElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light'); // Save preference
+      } else {
+        rootElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark'); // Save preference
+      }
+    });
+  
+    // On page load, apply saved theme preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      rootElement.classList.add('dark');
+    } else if (savedTheme === 'light') {
+      rootElement.classList.remove('dark');
+    }
+  </script>

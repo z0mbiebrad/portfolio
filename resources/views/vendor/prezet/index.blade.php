@@ -19,13 +19,13 @@
         <div class="divide-y divide-gray-200">
             <div class="space-y-2 pb-8 md:space-y-5">
                 <h1
-                    class="my-16 font-mono font-display text-4xl font-bold tracking-tight text-gray-900"
+                    class="my-16 font-mono font-display text-4xl font-bold tracking-tight text-gray-900 dark:text-white"
                 >
                     z0mbieblog
                 </h1>
 
                 <div class="justify-between sm:flex">
-                    <p class="text-lg leading-7 text-gray-500">
+                    <p class="text-lg leading-7 text-gray-500 dark:text-gray-300">
                         Interesting or cool things I've learned while developing.
                     </p>
                     <div class="mt-4 block sm:mt-0">

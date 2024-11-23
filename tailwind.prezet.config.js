@@ -11,6 +11,7 @@ export default {
         './resources/views/**/*.blade.php',
         './vendor/benbjurstrom/prezet/resources/views/**/*.blade.php',
     ],
+    darkMode: 'class',
     theme: {
         extend: {
             fontFamily: {
@@ -22,7 +23,7 @@ export default {
             },
             colors: {
                 primary: colors.sky,
-                gray: colors.slate,
+                gray: colors.stone,
             },
         },
     },

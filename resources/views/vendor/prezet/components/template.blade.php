@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="transition-colors duration-900 ease-in-out">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -100,7 +100,7 @@
         ></script>
         @vite(['resources/css/prezet.css'])
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased dark:bg-black">
         <div class="min-h-screen">
             <x-prezet::alpine>
                 <x-prezet::header />
