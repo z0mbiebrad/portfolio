@@ -22,7 +22,7 @@ export default {
                 '8xl': '88rem',
             },
             colors: {
-                primary: colors.orange,
+                primary: colors.sky,
                 gray: colors.stone,
             },
         },

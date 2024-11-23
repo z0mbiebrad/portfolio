@@ -12,6 +12,15 @@
         'url' => route('prezet.show', ['slug' => $frontmatter->slug]),
         'image' => $frontmatter->image,
     ])
+    <div class="text-base font-medium leading-6 py-6">
+        <a
+            class="text-primary-500 hover:text-primary-600"
+            aria-label='Read more: "Release of Tailwind Nextjs Starter Blog v2.0"'
+            href="{{ url()->previous() }}"
+        >
+            ← Back
+        </a>
+    </div>
 
     {{-- Left Sidebar --}}
     <x-slot name="left">
@@ -25,13 +34,13 @@
                 {{ $frontmatter->category }}
             </p>
             <h1
-                class="font-display text-4xl font-medium tracking-tight text-gray-900"
+                class="font-display text-4xl font-medium tracking-tight text-gray-900 dark:text-white"
             >
                 {{ $frontmatter->title }}
             </h1>
         </header>
         <div
-            class="prose-headings:font-display prose prose-gray max-w-none prose-a:border-b prose-a:border-dashed prose-a:border-black/30 prose-a:font-semibold prose-a:no-underline hover:prose-a:border-solid prose-img:rounded"
+            class="dark:prose-invert dark:prose-pre:bg-white dark:prose-pre:text-black prose-headings:font-display prose prose-gray max-w-none prose-a:border-b prose-a:border-dashed prose-a:border-black/30 prose-a:font-semibold prose-a:no-underline hover:prose-a:border-solid prose-img:rounded"
         >
             {!! $body !!}
         </div>
@@ -45,7 +54,7 @@
             <nav aria-labelledby="on-this-page-title" class="w-56">
                 <p
                     id="on-this-page-title"
-                    class="font-display text-sm font-medium text-gray-900"
+                    class="font-display text-sm font-medium text-gray-900 dark:text-gray-100"
                 >
                     On this page
                 </p>
