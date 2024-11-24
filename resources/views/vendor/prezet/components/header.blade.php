@@ -21,13 +21,18 @@
                 <x-sun />
             </span>
         </button>
+        <div class="hidden lg:flex lg:gap-x-12">
+            <a href="{{ route('home') }}" class="text-sm/6 font-semibold text-white">About</a>
+            <a href="{{ route('prezet.index') }}" class="text-sm/6 font-semibold text-white">Blog</a>
+            <a href="/#contact" class="text-sm/6 font-semibold text-white">Contact</a>
+        </div>
         <x-prezet::search />
         <button
             aria-label="Menu"
             class="rounded-lg p-1.5 hover:bg-gray-100 active:bg-gray-200 lg:hidden"
             x-on:click="showSidebar = ! showSidebar"
         >
-            <x-thumbprint />
+            <x-bars />
         </button>
     </div>
 </header>
