@@ -202,12 +202,12 @@ options: [],
             />
         </svg>
         <span
-            class="hidden grow text-start opacity-60 group-hover:opacity-100 lg:block"
+            class="hidden dark:text-gray-300 grow text-start opacity-60 group-hover:opacity-100 lg:block"
         >
             Search..
         </span>
         <span
-            class="hidden flex-none text-xs font-semibold opacity-75 lg:block"
+            class="hidden dark:text-gray-300 flex-none text-xs font-semibold opacity-75 lg:block"
         >
             <span x-text="modifierKey" class="opacity-75"></span>
             <span>K</span>
