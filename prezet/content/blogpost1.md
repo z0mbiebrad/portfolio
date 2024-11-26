@@ -1,10 +1,10 @@
 ---
 title: Manipulate Laravel Data with Javascript
-excerpt: Check out how easy it is to work with laravel data with javascript!.
-slug: javascript
+excerpt: Check out how easy it is to work with laravel data with javascript!
+slug: manipulate-laravel-data-with-javascript
 date: 2024-11-15
 category: javascript
-image: 
+image: prezet/images/javascript.jpg
 ---
 
 # You can manipulate Laravel data with Javascript!
