@@ -7,8 +7,6 @@ category: javascript
 image: prezet/images/javascript.jpg
 ---
 
-# You can manipulate Laravel data with Javascript!
-
 And heres what I mean by that. Once you have successfully passed data, lets say for example your Posts::all(), to your blade view, like so.
 
 ```
