@@ -1,7 +1,13 @@
 <header class="absolute inset-x-0 top-0 z-50">
-    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-        <div class="flex lg:flex-1">
-        </div>
+    <nav class="flex items-center justify-end p-6 lg:px-8" aria-label="Global">
+        <button id="theme-toggle">
+            <span class="inline dark:hidden">
+                <x-moon />
+            </span>
+            <span class="hidden dark:inline">
+                <x-sun />
+            </span>
+        </button>
         <div class="flex lg:hidden">
             <button id="open-menu-button" type="button"
                 class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400">
@@ -64,3 +70,26 @@
         });
     });
 </script>
+<script>
+    const rootElement = document.documentElement;
+    const savedTheme = localStorage.getItem('theme');
+
+    if (savedTheme) {
+        rootElement.classList.toggle('dark', savedTheme === 'dark');
+    } else {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        rootElement.classList.toggle('dark', prefersDark);
+    }
+</script>
+<script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleButton = document.getElementById('theme-toggle');
+        const rootElement = document.documentElement;
+
+        toggleButton.addEventListener('click', () => {
+        const isDarkMode = rootElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        });
+    });
+</script>
+

@@ -36,3 +36,25 @@
         </button>
     </div>
 </header>
+<script>
+    const rootElement = document.documentElement;
+    const savedTheme = localStorage.getItem('theme');
+
+    if (savedTheme) {
+        rootElement.classList.toggle('dark', savedTheme === 'dark');
+    } else {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        rootElement.classList.toggle('dark', prefersDark);
+    }
+</script>
+<script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleButton = document.getElementById('theme-toggle');
+        const rootElement = document.documentElement;
+
+        toggleButton.addEventListener('click', () => {
+        const isDarkMode = rootElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        });
+    });
+</script>
