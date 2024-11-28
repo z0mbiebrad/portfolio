@@ -7,9 +7,9 @@
 
 <x-prezet::template>
     @seo([
-        'title' => 'Prezet: Markdown Blogging for Laravel',
+        'title' => 'z0mbieblog',
         'description' =>
-            'Transform your markdown files into SEO-friendly blogs, articles, and documentation!',
+            'Learn coding with me!',
         'url' => route('prezet.index'),
     ])
     <x-slot name="left">

@@ -29,27 +29,3 @@
         </div>
     </div>
 </div>
-<script>
-    const toggleButton = document.getElementById('theme-toggle');
-    const rootElement = document.documentElement;
-  
-    toggleButton.addEventListener('click', () => {
-        console.log('dark/light baby')
-      // Toggle the `dark` class on the <html> element
-      if (rootElement.classList.contains('dark')) {
-        rootElement.classList.remove('dark');
-        localStorage.setItem('theme', 'light'); // Save preference
-      } else {
-        rootElement.classList.add('dark');
-        localStorage.setItem('theme', 'dark'); // Save preference
-      }
-    });
-  
-    // On page load, apply saved theme preference
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
-      rootElement.classList.add('dark');
-    } else if (savedTheme === 'light') {
-      rootElement.classList.remove('dark');
-    }
-  </script>

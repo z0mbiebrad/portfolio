@@ -21,10 +21,10 @@
                 <x-sun />
             </span>
         </button>
-        <div class="hidden lg:flex lg:gap-x-12">
-            <a href="{{ route('home') }}" class="text-sm/6 font-semibold text-white">About</a>
-            <a href="{{ route('prezet.index') }}" class="text-sm/6 font-semibold text-white">Blog</a>
-            <a href="/#contact" class="text-sm/6 font-semibold text-white">Contact</a>
+        <div class="hidden lg:flex lg:gap-x-12 text-sm/6 font-semibold dark:text-white text-black">
+            <a href="{{ route('home') }}" class="">About</a>
+            <a href="{{ route('prezet.index') }}" class="">Blog</a>
+            <a href="/#contact" class="">Contact</a>
         </div>
         <x-prezet::search />
         <button
@@ -36,3 +36,25 @@
         </button>
     </div>
 </header>
+<script>
+    const rootElement = document.documentElement;
+    const savedTheme = localStorage.getItem('theme');
+
+    if (savedTheme) {
+        rootElement.classList.toggle('dark', savedTheme === 'dark');
+    } else {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        rootElement.classList.toggle('dark', prefersDark);
+    }
+</script>
+<script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleButton = document.getElementById('theme-toggle');
+        const rootElement = document.documentElement;
+
+        toggleButton.addEventListener('click', () => {
+        const isDarkMode = rootElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        });
+    });
+</script>
