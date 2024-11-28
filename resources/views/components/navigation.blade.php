@@ -1,24 +1,32 @@
-<header class="absolute inset-x-0 top-0 z-50">
+<header class="absolute inset-x-0 top-0 z-50 bg-white/60 dark:bg-black/10">
     <nav class="flex items-center justify-end p-6 lg:px-8" aria-label="Global">
-        <button id="theme-toggle">
-            <span class="inline dark:hidden">
-                <x-moon />
-            </span>
-            <span class="hidden dark:inline">
-                <x-sun />
-            </span>
-        </button>
-        <div class="flex lg:hidden">
+        <div class="flex lg:hidden dark:text-white gap-x-6">
+            <button id="theme-toggle">
+                <span class="inline dark:hidden">
+                    <x-moon />
+                </span>
+                <span class="hidden dark:inline">
+                    <x-sun />
+                </span>
+            </button>
             <button id="open-menu-button" type="button"
-                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400">
+                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5">
                 <span class="sr-only">Open main menu</span>
                 <x-bars />
             </button>
         </div>
-        <div class="hidden lg:flex lg:gap-x-12">
-            <a href="{{ route('home') }}" class="text-sm/6 font-semibold text-white">About</a>
-            <a href="{{ route('prezet.index') }}" class="text-sm/6 font-semibold text-white">Blog</a>
-            <a href="/#contact" class="text-sm/6 font-semibold text-white">Contact</a>
+        <div class="hidden lg:flex lg:gap-x-12 text-sm/6 font-semibold dark:text-white text-black">
+            <button id="theme-toggle">
+                <span class="inline dark:hidden">
+                    <x-moon />
+                </span>
+                <span class="hidden dark:inline">
+                    <x-sun />
+                </span>
+            </button>
+            <a href="{{ route('home') }}" class="">About</a>
+            <a href="{{ route('prezet.index') }}" class="">Blog</a>
+            <a href="/#contact" class="">Contact</a>
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
