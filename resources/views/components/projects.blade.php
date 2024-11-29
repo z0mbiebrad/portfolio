@@ -1,10 +1,10 @@
-<div id="examples" class="bg-gray-900 pt-12 sm:py-32">
+<div id="examples" class="bg-gray-100 dark:bg-gray-900 pt-12 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:text-center">
-            <h2 class="text-base/7 font-semibold text-indigo-400">Lets create together!</h2>
-            <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-balance">
+            <h2 class="text-base/7 font-semibold text-orange-400 dark:text-indigo-400">Lets create together!</h2>
+            <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight dark:text-white sm:text-5xl lg:text-balance">
                 I want to help bring your ideas to life.</p>
-            <p class="mt-6 text-lg/8 text-gray-300">Here are some of my favorite recent projects, check them out to see
+            <p class="mt-6 text-lg/8 text-gray-700 dark:text-gray-300">Here are some of my favorite recent projects, check them out to see
                 what you think! The possibilities of what we can create are limitless.</p>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

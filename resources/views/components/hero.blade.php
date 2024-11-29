@@ -13,10 +13,10 @@
                     alt="" class="w-full h-48 my-16 object-cover object-top sm:h-80">
                 <header class="container h-full">
                     <div class="w-full">
-                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mx-auto w-fit">Hi! I'm <span class="dark:text-indigo-400 text-indigo-700">Bradley
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mx-auto w-fit">Hi! I'm <span class="dark:text-indigo-400 text-orange-400">Bradley
                                 Evans</span>. <br>
-                            It's nice to meet <span class="dark:text-indigo-400 text-indigo-700">you</span>!</h1>
-                        <div class="w-3/4 my-12 mx-auto h-1 dark:bg-indigo-400 bg-indigo-700"></div>
+                            It's nice to meet <span class="dark:text-indigo-400 text-orange-400">you</span>!</h1>
+                        <div class="w-3/4 my-12 mx-auto h-1 dark:bg-indigo-400 bg-orange-400"></div>
                         <p class="text-xl mb-12 w-fit mx-auto font-semibold px-5">I am a full stack web
                             developer skilled in Laravel, JavaScript, and responsive design. I create efficient,
                             user-friendly web applications with clean, maintainable code. Open to opportunities where I
