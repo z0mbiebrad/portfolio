@@ -1,6 +1,6 @@
 <x-app-layout>
 
-    <div class="bg-gray-900">
+    <div class="bg-gray-100 dark:bg-gray-900">
 
         <x-navigation />
 
