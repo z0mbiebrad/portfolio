@@ -30,7 +30,7 @@
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
-    <div id="mobile-menu" class="lg:hidden hidden" role="dialog" aria-modal="true">
+    <div id="mobile-menu" class="hidden" role="dialog" aria-modal="true">
         <!-- Background backdrop, show/hide based on slide-over state. -->
         <div class="fixed inset-0 z-50"></div>
         <div
