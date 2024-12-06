@@ -60,7 +60,7 @@
                 </p>
                 <ol role="list" class="mt-4 space-y-3 text-sm">
                     @foreach ($headings as $h2)
-                        <li>
+                        <li class="dark:text-white">
                             <a
                                 href="#{{ $h2['id'] }}"
                                 :class="{'text-primary-500 hover:text-primary-500': activeHeading === '#{{ $h2['title'] }}'}"
