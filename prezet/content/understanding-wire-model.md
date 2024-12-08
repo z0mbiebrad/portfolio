@@ -14,9 +14,6 @@ wire:model is a Livewire directive that establishes a two-way data binding betwe
 ## Define the Property in the Class
 
 ```php
-use Livewire\Component;
-use App\Models\Post;
- 
 class CreatePost extends Component
 {
     public $title = '';
@@ -29,8 +26,6 @@ class CreatePost extends Component
             'title' => $this->title
             'content' => $this->content
         ]);
- 
-        // ...
     }
 }
 ```
@@ -65,21 +60,29 @@ And thats it! Now you have successfully set up two way data binding! Its as simp
 Isn't livewire awesome!
 
 ## All available modifiers
-.live
-Send updates as a user types
-.blur
-Only send updates on the blur event
-.change
-Only send updates on the the change event
-.lazy
-An alias for .change
-.debounce.[?]ms
-Debounce the sending of updates by the specified millisecond delay
-.throttle.[?]ms
-Throttle network request updates by the specified millisecond interval
-.number
-Cast the text value of an input to int on the server
-.boolean
-Cast the text value of an input to bool on the server
-.fill
-Use the initial value provided by a "value" HTML attribute on page-load
+.live  
+Send updates as a user types  
+
+.blur  
+Only send updates on the blur event  
+
+.change  
+Only send updates on the the change event  
+
+.lazy  
+An alias for .change  
+
+.debounce.[?]ms  
+Debounce the sending of updates by the specified millisecond delay  
+
+.throttle.[?]ms  
+Throttle network request updates by the specified millisecond interval  
+
+.number  
+Cast the text value of an input to int on the server  
+
+.boolean  
+Cast the text value of an input to bool on the server  
+
+.fill  
+Use the initial value provided by a "value" HTML attribute on page-load  
