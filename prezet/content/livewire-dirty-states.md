@@ -19,7 +19,7 @@ In this post, we’ll explore the key capabilities of dirty state tracking, comp
 
 Livewire can determine if a form input has been modified using directives like:  
 	•	wire:dirty - Tracks if any property has changed.  
-    •   wire:dirty wire:target="property" - Tracks a specific property.  
+    •   wire:target="property" - Tracks a specific property for changes. (You still need wire:dirty attribute)  
 	•	wire:dirty.class/attr="" - Dynamically add classes or attributes when an input is dirty.  
 	•	wire:dirty.remove.class/attr - Dynamically remove classes or attributes when an input is dirty.  
 
@@ -27,7 +27,7 @@ Livewire can determine if a form input has been modified using directives like:
 
 Here’s how you can leverage dirty state tracking in a form:
 
-# Highlight Modified Field Titles
+#### Highlight Modified Field Titles  
 
 ```php
 <label wire:dirty.class="text-orange-400" wire:target="form.title">  
@@ -42,7 +42,7 @@ Here’s how you can leverage dirty state tracking in a form:
 
 When the form.title property is modified, the label turns orange, and an asterisk appears to indicate the change.
 
-# Enable the Save Button
+#### Enable the Save Button
 
 ```php
 <button  
@@ -58,7 +58,7 @@ When the form.title property is modified, the label turns orange, and an asteris
 
 This button stays disabled until any property in the form changes. Once dirty, the button’s hover effect is activated, and the disabled attribute is removed.
 
-# Toggle Additional Options
+#### Toggle Additional Options
 
 ```php
 <div wire:dirty.class="text-orange-400" wire:target="form.notifications">  
