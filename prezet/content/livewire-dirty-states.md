@@ -15,13 +15,13 @@ Livewire’s dirty state tracking is a feature designed to make your forms smart
 
 In this post, we’ll explore the key capabilities of dirty state tracking, complete with examples to help you implement them in your projects.
 
-The Basics of Dirty State Tracking
+## The Basics of Dirty State Tracking
 
-Livewire can determine if a form input has been modified using directives like:
-	•	wire:dirty - Tracks if any property has changed.
-    •   wire:dirty wire:target="property" - Tracks a specific property.
-	•	wire:dirty.class/attr="" - Dynamically add classes or attributes when an input is dirty.
-	•	wire:dirty.remove.class/attr - Dynamically remove classes or attributes when an input is dirty.
+Livewire can determine if a form input has been modified using directives like:  
+	•	wire:dirty - Tracks if any property has changed.  
+    •   wire:dirty wire:target="property" - Tracks a specific property.  
+	•	wire:dirty.class/attr="" - Dynamically add classes or attributes when an input is dirty.  
+	•	wire:dirty.remove.class/attr - Dynamically remove classes or attributes when an input is dirty.  
 
 ## Examples in Action
 
