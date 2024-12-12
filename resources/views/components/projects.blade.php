@@ -33,10 +33,10 @@
                         This is my coding blog where I share things that I have learned on my coding journey. It features an admin page where I have the option to upload posts and images, and it takes advantage of markdown for posting, much like github. I update it twice a week miniumum!
                     </x-slot>
                     <x-slot name="website">
-                        https://z0mbieblog.com
+                        https://bradleytevans.com/blog
                     </x-slot>
                     <x-slot name="repository">
-                        https://github.com/z0mbiebrad/z0mbieblog
+                        https://github.com/z0mbiebrad/portfolio
                     </x-slot>
                 </x-project-card>
                 <x-project-card>

@@ -1,14 +1,14 @@
 <header class="absolute inset-x-0 top-0 z-50 bg-white/60 dark:bg-black/10">
     <nav class="flex items-center justify-end p-6 lg:px-8" aria-label="Global">
+        <button id="theme-toggle" class="dark:text-white mr-6 lg:mr-12">
+            <span class="inline dark:hidden">
+                <x-moon />
+            </span>
+            <span class="hidden dark:inline">
+                <x-sun />
+            </span>
+        </button>
         <div class="flex lg:hidden dark:text-white gap-x-6">
-            <button id="theme-toggle">
-                <span class="inline dark:hidden">
-                    <x-moon />
-                </span>
-                <span class="hidden dark:inline">
-                    <x-sun />
-                </span>
-            </button>
             <button id="open-menu-button" type="button"
                 class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5">
                 <span class="sr-only">Open main menu</span>
@@ -16,17 +16,11 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12 text-sm/6 font-semibold dark:text-white text-black">
-            <button id="theme-toggle">
-                <span class="inline dark:hidden">
-                    <x-moon />
-                </span>
-                <span class="hidden dark:inline">
-                    <x-sun />
-                </span>
-            </button>
-            <a href="{{ route('home') }}" class="">About</a>
-            <a href="{{ route('prezet.index') }}" class="">Blog</a>
-            <a href="/#contact" class="">Contact</a>
+            <div class="hidden lg:flex lg:gap-x-12 text-sm/6 font-semibold dark:text-white text-black">
+                <a href="{{ route('home') }}" class="">About</a>
+                <a href="{{ route('prezet.index') }}" class="">Blog</a>
+                <a href="/#contact" class="">Contact</a>
+            </div>
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->

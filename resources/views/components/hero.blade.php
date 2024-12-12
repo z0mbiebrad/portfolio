@@ -18,7 +18,7 @@
                             It's nice to meet <span class="dark:text-indigo-400 text-orange-400">you</span>!</h1>
                         <div class="w-3/4 my-12 mx-auto h-1 dark:bg-indigo-400 bg-orange-400"></div>
                         <p class="text-xl mb-12 w-fit mx-auto font-semibold px-5">I am a full stack web
-                            developer skilled in Laravel, JavaScript, and responsive design. I create efficient,
+                            developer skilled in Laravel, TailwindCSS, and responsive design. I create efficient,
                             user-friendly web applications with clean, maintainable code. Open to opportunities where I
                             can apply my technical expertise in a collaborative setting.</p>
                         <div class="mt-10 font-semibold flex items-center justify-center gap-x-6 dark:text-white">
