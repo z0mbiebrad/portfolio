@@ -13,7 +13,7 @@
     <div
         class="relative flex basis-0 items-center justify-end gap-3 sm:gap-8 md:flex-grow lg:gap-6"
     >
-        <button id="theme-toggle">
+        <button id="theme-toggle" class="lg:mr-8">
             <span class="inline dark:hidden">
                 <x-moon />
             </span>

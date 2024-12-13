@@ -98,6 +98,9 @@
             defer
             src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"
         ></script>
+
+        <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }}">
+
         @vite(['resources/css/prezet.css'])
     </head>
     <body class="font-sans antialiased dark:bg-black">
