@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\CustomIndexController;
 use BenBjurstrom\Prezet\Http\Controllers\ImageController;
-use BenBjurstrom\Prezet\Http\Controllers\IndexController;
 use BenBjurstrom\Prezet\Http\Controllers\OgimageController;
 use BenBjurstrom\Prezet\Http\Controllers\SearchController;
 use BenBjurstrom\Prezet\Http\Controllers\ShowController;
@@ -26,7 +26,7 @@ Route::withoutMiddleware([
             ->name('prezet.ogimage')
             ->where('slug', '.*');
 
-        Route::get('blog', IndexController::class)
+        Route::get('blog', CustomIndexController::class)
             ->name('prezet.index');
 
         Route::get('blog/{slug}', ShowController::class)
