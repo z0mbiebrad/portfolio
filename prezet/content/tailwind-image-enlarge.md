@@ -1,7 +1,7 @@
 ---
 title: How to Make an Image Enlarge on Hover with Tailwind CSS  
 excerpt: Discover how to create an enlarging hover effect for images using Tailwind CSS, with smooth transitions and scaling for engaging UI design.  
-slug: enlarge-image-hover-tailwind  
+slug: tailwind-image-enlarge
 date: 2025-01-02  
 category: tailwind-css  
 image: prezet/images/tailwind-hover-effect.jpg  
