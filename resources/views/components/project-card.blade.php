@@ -1,4 +1,4 @@
-<div class="flex flex-col rounded-lg shadow-sm dark:shadow-gray-700 shadow-gray-400 py-5 px-10 dark:bg-gray-950/30 bg-gray-200">
+<div class="flex flex-col rounded-lg shadow-2xs dark:shadow-gray-700 shadow-gray-400 py-5 px-10 dark:bg-gray-950/30 bg-gray-200">
     <dt class="flex items-center gap-x-3 text-base/7 font-semibold dark:text-white">
         <x-laravel-icon class="text-orange-400 dark:text-indigo-500 h-6"/>
         {{ $sitename }}

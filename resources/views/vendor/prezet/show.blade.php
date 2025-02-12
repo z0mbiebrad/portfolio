@@ -40,7 +40,7 @@
             </h1>
         </header>
         <div
-            class="dark:prose-invert dark:prose-pre:bg-gray-900 dark:prose-pre:text-white prose-headings:font-display prose prose-gray max-w-none prose-a:border-b prose-a:border-dashed prose-a:border-black/30 prose-a:font-semibold prose-a:no-underline hover:prose-a:border-solid prose-img:rounded"
+            class="dark:prose-invert dark:prose-pre:bg-gray-900 dark:prose-pre:text-white prose-headings:font-display prose prose-gray max-w-none prose-a:border-b prose-a:border-dashed prose-a:border-black/30 prose-a:font-semibold prose-a:no-underline prose-a:hover:border-solid prose-img:rounded-sm"
         >
             {!! $body !!}
         </div>
