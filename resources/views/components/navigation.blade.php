@@ -3,7 +3,11 @@
     class="absolute inset-x-0 top-0 z-50 bg-white/60 dark:bg-black/10"
 >
     <nav class="flex items-center justify-end p-6 lg:px-8" aria-label="Global">
-        <button id="theme-toggle" class="dark:text-white mr-6 lg:mr-12">
+        <button 
+            @click="darkMode = !darkMode"
+            id="theme-toggle" 
+            class="dark:text-white mr-6 lg:mr-12"
+        >
             <span class="inline dark:hidden">
                 <x-moon />
             </span>
@@ -73,27 +77,3 @@
         </div>
     </div>
 </header>
-
-<script>
-    const rootElement = document.documentElement;
-    const savedTheme = localStorage.getItem('theme');
-
-    if (savedTheme) {
-        rootElement.classList.toggle('dark', savedTheme === 'dark');
-    } else {
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        rootElement.classList.toggle('dark', prefersDark);
-    }
-</script>
-<script defer>
-    document.addEventListener('DOMContentLoaded', () => {
-        const toggleButton = document.getElementById('theme-toggle');
-        const rootElement = document.documentElement;
-
-        toggleButton.addEventListener('click', () => {
-        const isDarkMode = rootElement.classList.toggle('dark');
-        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-        });
-    });
-</script>
-

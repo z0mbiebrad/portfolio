@@ -23,7 +23,14 @@
 </head>
 
 <body class="font-sans antialiased bg-white dark:bg-black">
-    <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div
+        x-data="{ 
+            darkMode: localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches) 
+        }" 
+        x-init="$watch('darkMode', val => localStorage.theme = val ? 'dark' : 'light')" 
+        :class="{ 'dark': darkMode }"
+        class="min-h-screen bg-gray-100 dark:bg-gray-900"
+    >
 
         <!-- Page Heading -->
         @isset($header)
