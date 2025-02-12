@@ -1,7 +1,7 @@
 <header
     class="top-0 z-50 flex flex-none flex-wrap items-center justify-between bg-white dark:bg-gray-900 dark:text-white px-4 py-5 shadow-md shadow-gray-900/5 transition duration-500 sm:px-6 lg:px-8"
 >
-    <div class="relative flex flex-grow basis-0 items-center">
+    <div class="relative flex grow basis-0 items-center">
         <a
             aria-label="Home"
             href="{{ route('home') }}"
@@ -11,7 +11,7 @@
         </a>
     </div>
     <div
-        class="relative flex basis-0 items-center justify-end gap-3 sm:gap-8 md:flex-grow lg:gap-6"
+        class="relative flex basis-0 items-center justify-end gap-3 sm:gap-8 md:grow lg:gap-6"
     >
         <button id="theme-toggle" class="lg:mr-8">
             <span class="inline dark:hidden">

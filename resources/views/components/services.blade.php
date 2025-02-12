@@ -47,7 +47,7 @@
                     <span class="text-4xl font-semibold tracking-tight dark:text-white">$500</span>
                 </p>
                 <a href="/#contact" aria-describedby="tier-startup"
-                    class="mt-6 block rounded-md bg-orange-400 hover:bg-orange-500 dark:bg-indigo-500 px-3 py-2 text-center text-sm/6 font-semibold dark:text-white shadow-sm dark:hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Contact</a>
+                    class="mt-6 block rounded-md bg-orange-400 hover:bg-orange-500 dark:bg-indigo-500 px-3 py-2 text-center text-sm/6 font-semibold dark:text-white shadow-2xs dark:hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Contact</a>
                 <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-700 dark:text-gray-300 xl:mt-10">
                     <li class="flex gap-x-3">
                         <x-checkmark />
