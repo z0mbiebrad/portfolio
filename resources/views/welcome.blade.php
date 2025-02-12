@@ -1,17 +1,13 @@
 <x-app-layout>
 
-    <div class="bg-gray-100 dark:bg-gray-900">
+    <x-navigation />
 
-        <x-navigation />
+    <x-hero />
+    
+    <x-services />
 
-        <x-hero />
-        
-        <x-services />
+    <x-projects />
 
-        <x-projects />
-
-        <x-contact />
-
-    </div>
+    <x-contact />
 
 </x-app-layout>
