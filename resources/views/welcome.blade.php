@@ -4,8 +4,6 @@
 
     <x-hero />
     
-    <x-services />
-
     <x-projects />
 
     <x-contact />
