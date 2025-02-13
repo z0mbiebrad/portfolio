@@ -1,12 +1,12 @@
 <header 
     x-data="{ open: false }"
-    class="absolute inset-x-0 top-0 z-50 bg-white/60 dark:bg-black/10"
+    class="absolute inset-x-0 top-0 z-50 bg-white/70 dark:bg-black/40"
 >
     <nav class="flex items-center justify-end p-6 lg:px-8" aria-label="Global">
         <button 
             @click="darkMode = !darkMode"
             id="theme-toggle" 
-            class="dark:text-white mr-6 lg:mr-12"
+            class="dark:text-white mr-6 lg:mr-12 hover:cursor-pointer hover:text-zinc-500 dark:hover:text-amber-300"
         >
             <span class="inline dark:hidden">
                 <x-moon />
@@ -26,12 +26,10 @@
                 <x-bars />
             </button>
         </div>
-        <div class="hidden lg:flex lg:gap-x-12 text-sm/6 font-semibold dark:text-white text-black">
-            <div class="hidden lg:flex lg:gap-x-12 text-sm/6 font-semibold dark:text-white text-black">
-                <a href="{{ route('home') }}" class="">About</a>
-                <a href="{{ route('prezet.index') }}" class="">Blog</a>
-                <a href="/#contact" class="">Contact</a>
-            </div>
+        <div class="hidden lg:flex lg:gap-x-12 text-base font-semibold dark:text-white text-black">
+            <a href="{{ route('home') }}" class="hover:text-zinc-400 dark:hover:text-zinc-400">About</a>
+            <a href="{{ route('prezet.index') }}" class="hover:text-zinc-400 dark:hover:text-zinc-400">Blog</a>
+            <a href="/#contact" class="hover:text-zinc-400 dark:hover:text-zinc-400">Contact</a>
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
