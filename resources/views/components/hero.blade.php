@@ -10,12 +10,13 @@
         <div class="w-full max-w-5xl mb-10 sm:w-11/12">
             <div class="container h-full mx-auto">
                 <img src="{{ asset('images/family.png') }}"
-                    alt="" class="object-cover object-top w-full h-48 my-16 sm:h-80 rounded-md shadow-xl">
+                    alt="" class="border border-zinc-600 dark:border-zinc-200 object-cover object-top w-full h-48 my-16 sm:h-80 rounded-md shadow-xl">
                 <header class="container h-full">
                     <div class="w-full">
                         <h1 class="mx-auto text-4xl font-bold sm:text-5xl lg:text-6xl w-fit">Hi! I'm <span class="text-orange-600 dark:text-indigo-400">Bradley
                                 Evans</span>. <br>
-                            It's nice to meet <span class="text-orange-600 dark:text-indigo-400">you</span>!</h1>
+                                <span class="font-normal text-zinc-800 dark:text-zinc-100">It's nice to meet <span class="text-orange-600 dark:text-indigo-400">you</span>!</span>
+                            </h1>
                         <div class="w-3/4 h-1 mx-auto my-12 bg-orange-600 dark:bg-indigo-400"></div>
                         <div class="grid grid-cols-2 sm:grid-cols-4 place-items-center mb-6">
                             <a href="https://tailwindcss.com/" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
@@ -32,20 +33,30 @@
                             </a>
                         </div>
 
-                        <p class="max-w-4xl px-5 mx-auto mb-12 text-xl w-fit">
+                        <p class="max-w-4xl px-5 mx-auto my-12 text-xl w-fit">
                            I’m a <span class="font-bold">Full-Stack Developer</span> specializing in the TALL stack with a strong focus on problem-solving, critical thinking, and user experience. My approach is simple: make it work, then make it great.  I’m eager to join a stable development team where I can learn, collaborate, and grow, bringing adaptability, attention to detail, and a relentless drive to solve problems.
                         </p>
                         <div class="flex items-center justify-center mt-10 font-semibold gap-x-6 dark:text-white">
-                            <a href="#examples"
-                                class="flex text-sm md:text-base lg:text-lg gap-x-1">
+                           
+                        <button type="button" class="mt-8 whitespace-nowrap rounded-lg bg-transparent rounded-radius border border-surface-dark px-4 py-2 text-sm font-medium tracking-wide text-surface-dark transition hover:opacity-75 text-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface">
+                            <a 
+                                href="#services"
+                                class="flex text-base lg:text-lg gap-x-1"
+                            >
                                 <x-command />
-                                    Projects
-                            </a>
-                            <a href="#services"
-                                class="flex text-base lg:text-lg gap-x-1">
+                                Projects
+                            </a> 
+                        </button>
+                        <button type="button" class="mt-8 whitespace-nowrap rounded-lg bg-transparent rounded-radius border border-surface-dark px-4 py-2 text-sm font-medium tracking-wide text-surface-dark transition hover:opacity-75 text-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface">
+                            <a 
+                                href="#services"
+                                class="flex text-base lg:text-lg gap-x-1"
+                            >
                                 Contact
                                 <x-chat />
-                            </a>
+                        </a>
+                        </button>
+                       
                         </div>
                     </div>
                 </header>
