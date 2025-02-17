@@ -22,18 +22,6 @@
                             user-friendly web applications with clean, maintainable code. Open to opportunities where I
                             can apply my technical expertise in a collaborative setting.</p>
                         <div class="mt-10 font-semibold flex items-center justify-center gap-x-6 dark:text-white">
-                            <a href="#examples"
-                                class="border-b-2 border-black dark:border-white text-md flex gap-x-1">
-                                <x-circle-stack />
-                                Examples
-                            </a>
-<<<<<<< Updated upstream
-                            <a href="#services"
-                                class="border-b-2 border-black dark:border-white text-md flex gap-x-1">
-                                Services
-                                <x-command />
-                            </a>
-=======
                             <a href="https://alpinejs.dev" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
                                 <x-alpine class="m-2"/>
                             </a>
@@ -68,8 +56,6 @@
                                 <x-chat />
                         </a>
                         </button>
-                       
->>>>>>> Stashed changes
                         </div>
                     </div>
                 </header>
