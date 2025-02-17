@@ -27,11 +27,49 @@
                                 <x-circle-stack />
                                 Examples
                             </a>
+<<<<<<< Updated upstream
                             <a href="#services"
                                 class="border-b-2 border-black dark:border-white text-md flex gap-x-1">
                                 Services
                                 <x-command />
                             </a>
+=======
+                            <a href="https://alpinejs.dev" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
+                                <x-alpine class="m-2"/>
+                            </a>
+                            <a href="https://laravel.com/" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
+                                <x-laravel class="m-1"/>
+                            </a>
+                            <a href="https://alpinejs.dev" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
+                                <x-livewire class="m-2"/>
+                            </a>
+                        </div>
+
+                        <p class="max-w-4xl px-5 mx-auto my-12 text-xl w-fit">
+                           I’m a <span class="font-bold">Full-Stack Developer</span> specializing in the TALL stack with a strong focus on problem-solving, critical thinking, and user experience. My approach is simple: make it work, then make it great.  I’m eager to join a stable development team where I can learn, collaborate, and grow, bringing adaptability, attention to detail, and a relentless drive to solve problems.
+                        </p>
+                        <div class="flex items-center justify-center mt-10 font-semibold gap-x-6 dark:text-white">
+                           
+                        <button type="button" class="mt-8 rounded-md bg-white/50 dark:bg-transparent whitespace-nowrap border border-neutral-950 px-4 py-2 text-sm font-medium tracking-wide text-neutral-950 transition hover:opacity-55 hover:cursor-pointer text-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950 active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-white dark:text-white dark:focus-visible:outline-white">
+                            <a 
+                                href="#examples"
+                                class="flex text-base lg:text-lg gap-x-1"
+                            >
+                                <x-command />
+                                Projects
+                            </a> 
+                        </button>
+                        <button type="button" class="mt-8 rounded-md bg-white/50 dark:bg-transparent whitespace-nowrap border border-neutral-950 px-4 py-2 text-sm font-medium tracking-wide text-neutral-950 transition hover:opacity-55 hover:cursor-pointer text-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950 active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-white dark:text-white dark:focus-visible:outline-white">
+                            <a 
+                                href="#contact"
+                                class="flex text-base lg:text-lg gap-x-1"
+                            >
+                                Contact
+                                <x-chat />
+                        </a>
+                        </button>
+                       
+>>>>>>> Stashed changes
                         </div>
                     </div>
                 </header>
