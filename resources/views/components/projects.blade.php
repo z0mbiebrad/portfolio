@@ -33,7 +33,7 @@
                         z0mbieblog
                     </x-slot>
                     <x-slot name="description">
-                        This is my coding blog where I share things that I have learned on my coding journey. It features an admin page where I have the option to upload posts and images, and it takes advantage of markdown for posting, much like github. I update it twice a week miniumum!
+                        This is my coding blog where I share things that I have learned on my coding journey. It features an admin page where I have the option to upload posts and images, and it takes advantage of markdown for posting, much like github. I update as much as time allows me!
                     </x-slot>
                     <x-slot name="website">
                         https://bradleytevans.com/blog
