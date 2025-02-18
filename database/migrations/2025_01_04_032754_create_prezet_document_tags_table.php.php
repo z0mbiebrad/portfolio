@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::connection('forge')->create('document_tags', function (Blueprint $table) {
+        Schema::connection('mysql')->create('document_tags', function (Blueprint $table) {
             $table->id();
             $table->foreignId('document_id')
                 ->index()
@@ -24,6 +24,6 @@ return new class extends Migration
 
     public function down(): void
     {
-        Schema::connection('forge')->dropIfExists('document_tags');
+        Schema::connection('mysql')->dropIfExists('document_tags');
     }
 };

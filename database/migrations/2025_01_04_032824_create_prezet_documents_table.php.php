@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::connection('forge')->create('documents', function (Blueprint $table) {
+        Schema::connection('mysql')->create('documents', function (Blueprint $table) {
             $table->id();
             $table->string('slug')->unique();
             $table->string('category')->nullable();
@@ -24,6 +24,6 @@ return new class extends Migration
 
     public function down(): void
     {
-        Schema::connection('forge')->dropIfExists('documents');
+        Schema::connection('mysql')->dropIfExists('documents');
     }
 };
