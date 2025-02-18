@@ -16,18 +16,16 @@
             <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                 <x-project-card>
                     <x-slot name="sitename">
-                        Biscoe Smoke House
+                        Tasilisk
                     </x-slot>
                     <x-slot name="description">
-                        A website for a local tobacco shop featuring an About section, customer
-                            reviews, and contact information. I also developed a custom menu with an admin interface,
-                            allowing the shop to update and display their products effortlessly for their customers.
+                        A super simple and sleek task manager. Built it because I wanted a clean easy way to keep track of my daily "non-negotiables". A list of things I have to do everyday no matter how I feel. Want to soon incorporate teams and the ability to assign tasks to others, and notifications. 
                     </x-slot>
                     <x-slot name="website">
-                        https://biscoesmokehouse.com
+                        https://tasilisk.com
                     </x-slot>
                     <x-slot name="repository">
-                        https://github.com/z0mbiebrad/bsh
+                        https://github.com/z0mbiebrad/task-bastion
                     </x-slot>
                 </x-project-card>
                 <x-project-card>
