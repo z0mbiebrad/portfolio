@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::connection('prezet')->create('headings', function (Blueprint $table) {
+        Schema::connection('forge')->create('headings', function (Blueprint $table) {
             $table->id();
             $table->foreignId('document_id')
                 ->constrained('documents')
@@ -24,6 +24,6 @@ return new class extends Migration
 
     public function down(): void
     {
-        Schema::connection('prezet')->dropIfExists('headings');
+        Schema::connection('forge')->dropIfExists('headings');
     }
 };

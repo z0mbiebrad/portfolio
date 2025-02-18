@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::connection('prezet')->create('documents', function (Blueprint $table) {
+        Schema::connection('forge')->create('documents', function (Blueprint $table) {
             $table->id();
             $table->string('slug')->unique();
             $table->string('category')->nullable();
@@ -24,6 +24,6 @@ return new class extends Migration
 
     public function down(): void
     {
-        Schema::connection('prezet')->dropIfExists('documents');
+        Schema::connection('forge')->dropIfExists('documents');
     }
 };
