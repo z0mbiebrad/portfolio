@@ -11,19 +11,24 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('document', function (Blueprint $table) {
+        Schema::create('documents', function (Blueprint $table) {
             $table->id();
-            $table->string('slug')->unique();
-            $table->string('category')->nullable();
-            $table->boolean('draft');
+            $table->string('key')->index()->nullable()->unique();
+            $table->string('slug')->index()->unique();
+            $table->string('filepath')->index()->unique();
+            $table->string('category')->index()->nullable();
+            $table->boolean('draft')->default(false)->index();
+            $table->char('hash', length: 32)->index()->unique();
             $table->jsonb('frontmatter');
-            $table->timestamp('created_at');
-            $table->timestamp('updated_at');
+            $table->timestampTz('created_at')->index();
+            $table->timestampTz('updated_at')->index();
+
+            $table->index('filepath', 'hash');
         });
     }
 
     public function down(): void
     {
-        Schema::dropIfExists('document');
+        Schema::dropIfExists('documents');
     }
 };

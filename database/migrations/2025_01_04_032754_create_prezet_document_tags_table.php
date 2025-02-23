@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('document_id')
                 ->index()
-                ->constrained();
+                ->constrained('documents');
             $table->foreignId('tag_id')
                 ->index()
                 ->constrained('tags');
