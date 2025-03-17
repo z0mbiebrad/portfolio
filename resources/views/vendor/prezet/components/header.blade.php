@@ -1,7 +1,7 @@
 <header
-    class="top-0 z-50 flex flex-none flex-wrap items-center justify-between bg-white dark:bg-gray-900 dark:text-white px-4 py-5 shadow-md shadow-gray-900/5 transition duration-500 sm:px-6 lg:px-8"
+    class="top-0 z-50 flex flex-wrap items-center justify-between flex-none px-4 py-5 transition duration-500 bg-white shadow-md dark:bg-gray-900 dark:text-white shadow-gray-900/5 sm:px-6 lg:px-8"
 >
-    <div class="relative flex grow basis-0 items-center">
+    <div class="relative flex items-center grow basis-0">
         <a
             aria-label="Home"
             href="{{ route('home') }}"
@@ -11,22 +11,24 @@
         </a>
     </div>
     <div
-        class="relative flex basis-0 items-center justify-end gap-3 sm:gap-8 md:grow lg:gap-6"
+        class="relative flex items-center justify-end gap-3 basis-0 sm:gap-8 md:grow lg:gap-6"
     >
-        <button id="theme-toggle" class="lg:mr-8">
-            <span class="inline dark:hidden">
-                <x-moon />
-            </span>
-            <span class="hidden dark:inline">
-                <x-sun />
-            </span>
-        </button>
-        <div class="hidden lg:flex lg:gap-x-12 text-sm/6 font-semibold dark:text-white text-black">
-            <a href="{{ route('home') }}" class="">About</a>
-            <a href="{{ route('prezet.index') }}" class="">Blog</a>
-            <a href="/#contact" class="">Contact</a>
+        <div class="items-center hidden font-semibold text-black lg:flex lg:gap-x-12 text-sm/6 dark:text-white">
+            <x-dark-toggle />
+            <a 
+                href="{{ route('home') }}" 
+                class="p-2 cursor-pointer text-neutral-600 hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white"
+            >
+                About
+            </a>
+            <a 
+                href="/#contact" 
+                class="p-2 cursor-pointer text-neutral-600 hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white"
+            >
+                Contact
+            </a>
+            <x-prezet::search />
         </div>
-        <x-prezet::search />
         <button
             aria-label="Menu"
             class="rounded-lg p-1.5 hover:bg-gray-100 active:bg-gray-200 lg:hidden"
@@ -36,25 +38,3 @@
         </button>
     </div>
 </header>
-<script>
-    const rootElement = document.documentElement;
-    const savedTheme = localStorage.getItem('theme');
-
-    if (savedTheme) {
-        rootElement.classList.toggle('dark', savedTheme === 'dark');
-    } else {
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        rootElement.classList.toggle('dark', prefersDark);
-    }
-</script>
-<script defer>
-    document.addEventListener('DOMContentLoaded', () => {
-        const toggleButton = document.getElementById('theme-toggle');
-        const rootElement = document.documentElement;
-
-        toggleButton.addEventListener('click', () => {
-        const isDarkMode = rootElement.classList.toggle('dark');
-        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-        });
-    });
-</script>

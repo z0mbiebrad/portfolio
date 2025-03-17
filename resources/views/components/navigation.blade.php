@@ -2,19 +2,7 @@
     x-data="{ open: false }"
     class="absolute inset-x-0 top-0 z-50 bg-white/70 dark:bg-black/40"
 >
-    <nav class="flex items-center justify-end p-6 lg:px-8" aria-label="Global">
-        <button 
-            @click="darkMode = !darkMode"
-            id="theme-toggle" 
-            class="dark:text-white mr-6 lg:mr-12 hover:cursor-pointer hover:text-zinc-500 dark:hover:text-amber-300"
-        >
-            <span class="inline dark:hidden">
-                <x-moon />
-            </span>
-            <span class="hidden dark:inline">
-                <x-sun />
-            </span>
-        </button>
+    <nav class="flex items-center justify-end p-4 lg:px-8" aria-label="Global">
         <div class="flex lg:hidden dark:text-white gap-x-6">
             <button 
                 @click="open = !open"
@@ -26,10 +14,20 @@
                 <x-bars />
             </button>
         </div>
-        <div class="hidden lg:flex lg:gap-x-12 text-base font-semibold dark:text-white text-black">
-            <a href="{{ route('home') }}" class="hover:text-zinc-400 dark:hover:text-zinc-400">About</a>
-            <a href="{{ route('prezet.index') }}" class="hover:text-zinc-400 dark:hover:text-zinc-400">Blog</a>
-            <a href="/#contact" class="hover:text-zinc-400 dark:hover:text-zinc-400">Contact</a>
+        <div class="hidden items-center lg:flex lg:gap-x-12 text-base font-semibold dark:text-white text-black">
+            <x-dark-toggle />
+            <a 
+                href="{{ route('prezet.index') }}" 
+                class="p-2 cursor-pointer text-neutral-600  hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white"
+            >
+                Blog
+            </a>
+            <a 
+                href="/#contact" 
+                class="p-2 cursor-pointer text-neutral-600  hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white"
+            >
+                Contact
+            </a>
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
@@ -63,8 +61,6 @@
             <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/25">
                     <div class="space-y-2 py-6">
-                        <a href="{{ route('home')}}"
-                            class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">About</a>
                         <a href="{{ route('prezet.index') }}"
                             class="nav-link -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Blog</a>
                         <a href="/#contact"
