@@ -1,7 +1,9 @@
 <div class="flex flex-col px-10 py-5 bg-gray-200 rounded-lg shadow-2xs dark:shadow-gray-700 shadow-gray-400 dark:bg-gray-950/30">
     <dt class="flex items-center font-semibold gap-x-3 text-base/7 dark:text-white">
         <x-laravel-icon class="h-6 text-orange-400 dark:text-indigo-500"/>
-        {{ $sitename }}
+        <a href="{{ $website }}" target="_blank">
+            {{ $sitename }}
+        </a>
     </dt>
     <dd class="flex flex-col flex-auto mt-4 text-gray-700 text-base/7 dark:text-gray-300">
         <p class="flex-auto">
