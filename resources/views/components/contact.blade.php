@@ -88,27 +88,51 @@
                     <div class="w-4/5 mx-auto lg:mr-0 lg:max-w-lg">
                         <div class="flex flex-col my-8 gap-x-8 gap-y-6 sm:grid-cols-2">
                             <div class="sm:col-span-2">
-                                <label for="email"
-                                    class="block font-semibold text-sm/6 dark:text-white">Email</label>
+                                <label 
+                                    for="email"
+                                    class="block font-semibold text-sm/6 dark:text-white"
+                                    required
+                                >
+                                    Email
+                                </label>
                                 <div class="mt-2.5">
-                                    <input type="email" name="email" id="email" autocomplete="email"
-                                        class="block w-full rounded-md border-0 dark:bg-white/5 px-3.5 py-2 dark:text-white shadow-2xs ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm/6">
+                                    <input 
+                                        type="email" 
+                                        name="email" 
+                                        id="email" 
+                                        autocomplete="email"
+                                        required
+                                        class="block w-full rounded-md border-0 dark:bg-white/5 px-3.5 py-2 dark:text-white shadow-2xs ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm/6"
+                                    >
                                 </div>
                             </div>
-                            <div class="sm:col-span-2">
+                            <div class="sm:col-span-2" x-data="{ message: '', error: '' }" >
                                 <label for="phone-number" class="block font-semibold text-sm/6 dark:text-white">Phone
                                     number</label>
                                 <div class="mt-2.5">
-                                    <input type="tel" name="phone-number" id="phone-number" autocomplete="tel"
-                                        class="block w-full rounded-md border-0 dark:bg-white/5 px-3.5 py-2 dark:text-white shadow-2xs ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm/6">
+                                    <input 
+                                        type="tel" 
+                                        name="phone-number" 
+                                        id="phone-number" 
+                                        autocomplete="tel"
+                                        minlength="9"
+                                        maxlength="9"
+                                        required
+                                        class="block w-full rounded-md border-0 dark:bg-white/5 px-3.5 py-2 dark:text-white shadow-2xs ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm/6"
+                                    >
                                 </div>
                             </div>
                             <div class="sm:col-span-2">
                                 <label for="message"
                                     class="block font-semibold text-sm/6 dark:text-white">Message</label>
                                 <div class="mt-2.5">
-                                    <textarea name="message" id="message" rows="4"
-                                        class="block w-full rounded-md border-0 dark:bg-white/5 px-3.5 py-2 dark:text-white shadow-2xs ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm/6"></textarea>
+                                    <textarea 
+                                        name="message" 
+                                        id="message" 
+                                        rows="4"
+                                        required
+                                        class="block w-full rounded-md border-0 dark:bg-white/5 px-3.5 py-2 dark:text-white shadow-2xs ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm/6"
+                                    ></textarea>
                                 </div>
                             </div>
                         </div>
