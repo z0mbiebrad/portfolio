@@ -28,7 +28,7 @@
                             <a href="https://laravel.com/" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
                                 <x-laravel class="m-1"/>
                             </a>
-                            <a href="https://alpinejs.dev" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
+                            <a href="https://livewire.laravel.com/" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
                                 <x-livewire class="m-2"/>
                             </a>
                         </div>
