@@ -2,13 +2,13 @@
     x-data="{ open: false }"
     class="absolute inset-x-0 top-0 z-50 bg-white/70 dark:bg-black/40"
 >
-    <nav class="flex items-center justify-end p-4 lg:px-8" aria-label="Global">
-        <div class="flex lg:hidden dark:text-white gap-x-6">
+    <nav class="flex items-center justify-end py-4 px-8" aria-label="Global">
+        <div class="flex lg:hidden dark:text-white gap-x-6 ">
             <button 
                 @click="open = !open"
                 id="open-menu-button" 
                 type="button"
-                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
+                class="inline-flex items-center justify-center rounded-md p-2"
             >
                 <span class="sr-only">Open main menu</span>
                 <x-bars />
