@@ -35,7 +35,7 @@ Here’s how you can leverage dirty state tracking in a form:
 </label>  
 <input 
     type="text" 
-    class="p-2 w-full border rounded-md bg-gray-700 text-white"  
+    class="p-2 w-full border rounded-md bg-zinc-700 text-white"  
     wire:model="form.title"  
 >
 ```

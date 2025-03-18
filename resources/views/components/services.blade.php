@@ -1,4 +1,4 @@
-<div id="services" class="bg-gray-100 dark:bg-gray-900 py-24 sm:py-32">
+<div id="services" class="bg-zinc-100 dark:bg-zinc-900 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-4xl text-center">
             <h2 class="text-base/7 font-semibold text-orange-400 dark:text-indigo-400 underline"><a href="#contact">Dont see a plan for you?</a></h2>

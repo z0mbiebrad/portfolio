@@ -1,4 +1,4 @@
-<div id="examples" class="pt-12 bg-gray-100 dark:bg-gray-900 sm:py-32">
+<div id="examples" class="pt-12 bg-zinc-100 dark:bg-zinc-900 sm:py-32">
     <div class="px-6 mx-auto max-w-7xl lg:px-8">
         <div class="max-w-2xl mx-auto lg:text-center">
             <h2 class="font-semibold text-orange-400 text-base/7 dark:text-indigo-400">

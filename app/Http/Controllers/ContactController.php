@@ -11,8 +11,6 @@ class ContactController extends Controller
     {
         // Validate the form data
         $validated = $request->validate([
-            'first-name' => 'required|string|max:255',
-            'last-name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'phone-number' => 'required|string|max:15',
             'message' => 'required|string',
@@ -22,6 +20,6 @@ class ContactController extends Controller
         Mail::to('bradleyt.evans@gmail.com')->send(new \App\Mail\ContactFormMail($validated));
 
         // Return a response
-        return redirect()->back()->with('success', 'Thank you for your message!');
+        return redirect()->route('home', ['#contact'])->with('success', 'Thank you for your message!');
     }
 }

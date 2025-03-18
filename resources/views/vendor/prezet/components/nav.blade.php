@@ -16,7 +16,7 @@
                                     'before:-trangray-y-1/2 block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:rounded-full',
                                     'font-semibold text-primary-500 before:bg-primary-500' =>
                                         url()->current() === route('prezet.show', ['slug' => $link['slug']]),
-                                    'text-gray-500 before:hidden before:bg-gray-300 hover:text-gray-600 hover:before:block' =>
+                                    'text-gray-500 before:hidden before:bg-zinc-300 hover:text-gray-600 hover:before:block' =>
                                         url()->current() !== route('prezet.show', ['slug' => $link['slug']]),
                                 ])
                                 href="{{ route('prezet.show', ['slug' => $link['slug']]) }}"

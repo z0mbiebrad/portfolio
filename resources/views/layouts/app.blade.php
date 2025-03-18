@@ -1,5 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html 
+    lang="{{ str_replace('_', '-', app()->getLocale()) }}"
+    x-data="{ 
+        darkMode: localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches) 
+    }" 
+    x-init="$watch('darkMode', val => localStorage.theme = val ? 'dark' : 'light')" 
+    :class="{ 'dark': darkMode }"
+>
 
 <head>
     <meta charset="utf-8">
@@ -21,26 +28,19 @@
 </head>
 
 <body class="font-sans antialiased bg-white dark:bg-black">
-    <div
-        x-data="{ 
-            darkMode: localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches) 
-        }" 
-        x-init="$watch('darkMode', val => localStorage.theme = val ? 'dark' : 'light')" 
-        :class="{ 'dark': darkMode }"
-        class="min-h-screen bg-gray-100 dark:bg-gray-900"
-    >
+    <div class="min-h-screen bg-zinc-100 dark:bg-zinc-900">
 
         <!-- Page Heading -->
         @isset($header)
-            <header class="bg-white dark:bg-gray-800 shadow-xs">
-                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <header class="bg-white shadow-xs dark:bg-zinc-800">
+                <div class="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     {{ $header }}
                 </div>
             </header>
         @endisset
 
         <!-- Page Content -->
-        <main class="bg-gray-100 dark:bg-gray-900">
+        <main class="bg-zinc-100 dark:bg-zinc-900">
             {{ $slot }}
         </main>
     </div>

@@ -1,5 +1,5 @@
-<div class="flex flex-col px-10 py-5 bg-gray-200 rounded-lg shadow-2xs dark:shadow-gray-700 shadow-gray-400 dark:bg-gray-950/30">
-    <dt class="flex items-center font-semibold gap-x-3 text-base/7 dark:text-white">
+<div class="flex flex-col px-10 py-5 font-bold rounded-lg text-neutral-900 dark-text-neutral-100 bg-zinc-200 shadow-2xs dark:shadow-gray-700 shadow-gray-400 dark:bg-zinc-800">
+    <dt class="flex items-center text-xl font-semibold gap-x-3 dark:text-white">
         <x-laravel-icon class="h-6 text-orange-400 dark:text-indigo-500"/>
         <a href="{{ $website }}" target="_blank">
             {{ $sitename }}

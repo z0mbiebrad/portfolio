@@ -31,12 +31,12 @@
                     <div class="mt-4 block sm:mt-0">
                         @if ($currentTag)
                             <span
-                                class="inline-flex items-center gap-x-0.5 rounded-md bg-gray-50 px-2.5 py-1.5 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                                class="inline-flex items-center gap-x-0.5 rounded-md bg-zinc-50 px-2.5 py-1.5 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
                             >
                                 {{ \Illuminate\Support\Str::title($currentTag) }}
                                 <a
                                     href="{{ route('prezet.index', array_filter(request()->except('tag'))) }}"
-                                    class="group relative -mr-1 h-3.5 w-3.5 rounded-xs hover:bg-gray-500/20"
+                                    class="group relative -mr-1 h-3.5 w-3.5 rounded-xs hover:bg-zinc-500/20"
                                 >
                                     <span class="sr-only">Remove</span>
                                     <svg
@@ -52,12 +52,12 @@
 
                         @if ($currentCategory)
                             <span
-                                class="inline-flex items-center gap-x-0.5 rounded-md bg-gray-50 px-2.5 py-1.5 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                                class="inline-flex items-center gap-x-0.5 rounded-md bg-zinc-50 px-2.5 py-1.5 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
                             >
                                 {{ $currentCategory }}
                                 <a
                                     href="{{ route('prezet.index', array_filter(request()->except('category'))) }}"
-                                    class="group relative -mr-1 h-3.5 w-3.5 rounded-xs hover:bg-gray-500/20"
+                                    class="group relative -mr-1 h-3.5 w-3.5 rounded-xs hover:bg-zinc-500/20"
                                 >
                                     <span class="sr-only">Remove</span>
                                     <svg
