@@ -137,9 +137,12 @@
                             </div>
                         </div>
                         <div class="flex justify-end mt-8">
-                            <button type="submit"
-                                class="rounded-md bg-orange-400 dark:bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold dark:text-white shadow-2xs hover:bg-orange-500 dark:hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Send
-                                message</button>
+                            <button 
+                                type="submit"
+                                class="rounded-md bg-orange-400 dark:bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold dark:text-white shadow-2xs hover:bg-orange-500 dark:hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                            >
+                                Send message
+                            </button>
                         </div>
                     </div>
                 </form>
