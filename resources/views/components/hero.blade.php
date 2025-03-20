@@ -10,7 +10,7 @@
         <div class="w-full max-w-5xl mb-10 sm:w-11/12">
             <div class="container h-full mx-auto">
                 <img src="{{ asset('images/family.png') }}"
-                    alt="" class="border border-zinc-600 dark:border-zinc-200 object-cover object-top w-full h-48 my-16 sm:h-80 rounded-md shadow-xl">
+                    alt="" class="object-cover object-top w-full h-48 my-16 border rounded-md shadow-xl border-zinc-600 dark:border-zinc-200 sm:h-80">
                 <header class="container h-full">
                     <div class="w-full">
                         <h1 class="mx-auto text-4xl font-bold sm:text-5xl lg:text-6xl w-fit">Hi! I'm <span class="text-orange-600 dark:text-indigo-400">Bradley
@@ -18,17 +18,17 @@
                                 <span class="font-normal text-zinc-800 dark:text-zinc-100">It's nice to meet <span class="text-orange-600 dark:text-indigo-400">you</span>!</span>
                             </h1>
                         <div class="w-3/4 h-1 mx-auto my-12 bg-orange-600 dark:bg-indigo-400"></div>
-                        <div class="grid grid-cols-2 sm:grid-cols-4 place-items-center mb-6">
-                            <a href="https://tailwindcss.com/" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
+                        <div class="grid grid-cols-2 mb-6 sm:grid-cols-4 place-items-center">
+                            <a href="https://tailwindcss.com/" target="_blank" class="flex flex-col items-center justify-center w-full h-16 font-bold text-center transition-all duration-300 ease-out hover:-rotate-3 group hover:scale-105">
                                 <x-tailwind class="m-2"/>
                             </a>
-                            <a href="https://alpinejs.dev" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
+                            <a href="https://alpinejs.dev" target="_blank" class="flex flex-col items-center justify-center w-full h-16 font-bold text-center transition-all duration-300 ease-out hover:-rotate-3 group hover:scale-105">
                                 <x-alpine class="m-2"/>
                             </a>
-                            <a href="https://laravel.com/" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
+                            <a href="https://laravel.com/" target="_blank" class="flex flex-col items-center justify-center w-full h-16 font-bold text-center transition-all duration-300 ease-out hover:-rotate-3 group hover:scale-105">
                                 <x-laravel class="m-1"/>
                             </a>
-                            <a href="https://livewire.laravel.com/" target="_blank" class="w-full h-16 hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300 text-center flex flex-col font-bold items-center justify-center">
+                            <a href="https://livewire.laravel.com/" target="_blank" class="flex flex-col items-center justify-center w-full h-16 font-bold text-center transition-all duration-300 ease-out hover:-rotate-3 group hover:scale-105">
                                 <x-livewire class="m-2"/>
                             </a>
                         </div>
@@ -38,7 +38,7 @@
                         </p>
                         <div class="flex items-center justify-center mt-10 font-semibold gap-x-6 dark:text-white">
                            
-                        <button type="button" class="mt-8 whitespace-nowrap rounded-lg bg-transparent rounded-radius border border-surface-dark px-4 py-2 text-sm font-medium tracking-wide text-surface-dark transition hover:opacity-75 text-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface">
+                        <button type="button" class="px-4 py-2 mt-8 text-sm font-medium tracking-wide text-center transition bg-transparent border rounded-lg whitespace-nowrap rounded-radius border-surface-dark text-surface-dark hover:opacity-75 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface hover:scale-110 hover:cursor-pointer">
                             <a 
                                 href="#projects"
                                 class="flex text-base lg:text-lg gap-x-1"
@@ -47,7 +47,7 @@
                                 Projects
                             </a> 
                         </button>
-                        <button type="button" class="mt-8 whitespace-nowrap rounded-lg bg-transparent rounded-radius border border-surface-dark px-4 py-2 text-sm font-medium tracking-wide text-surface-dark transition hover:opacity-75 text-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface">
+                        <button type="button" class="px-4 py-2 mt-8 text-sm font-medium tracking-wide text-center transition bg-transparent border rounded-lg whitespace-nowrap rounded-radius border-surface-dark text-surface-dark hover:opacity-75 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface hover:scale-110 hover:cursor-pointer">
                             <a 
                                 href="#contact"
                                 class="flex text-base lg:text-lg gap-x-1"
