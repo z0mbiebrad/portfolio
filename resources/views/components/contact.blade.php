@@ -21,9 +21,10 @@
     <form action="{{ route('contact.store') }}" method="POST" class="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48">
         @csrf
         <div class="relative isolate bg-zinc-100 dark:bg-zinc-900">
-            <div class="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2 bg-zinc-200 dark:bg-zinc-800 rounded-lg px-24 py-10">
-                <div class="relative px-6 mt-9 pb-20 lg:static lg:px-8">
-                    <div class="mx-auto lg:mx-0 lg:max-w-lg bg-zinc-300 p-8 rounded-lg dark:bg-zinc-700">
+            <div
+                class="grid grid-cols-1 py-10 mx-auto rounded-lg max-w-7xl lg:grid-cols-2 bg-zinc-200 dark:bg-zinc-800 md:px-24">
+                <div class="relative px-6 pb-20 mt-9 lg:static lg:px-8">
+                    <div class="p-8 mx-auto rounded-lg lg:mx-0 lg:max-w-lg bg-zinc-300 dark:bg-zinc-700">
                         <h2 class="text-4xl font-semibold tracking-tight text-pretty dark:text-white sm:text-5xl">Get in
                             touch
                         </h2>
@@ -34,18 +35,19 @@
                         <dl class="mt-10 space-y-4 text-gray-700 text-base/7 dark:text-gray-300">
                             <div class="flex gap-x-4">
                                 <dd class="flex items-center">
-                                    <a class="dark:hover:text-white" href="mailto:bradleyt.evans@gmail.com">
+                                    <a href="mailto:bradleyt.evans@gmail.com" title="Email Me">
                                         <div
-                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-400 dark:hover:bg-zinc-700 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                                              </svg>
-                                              
+                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-400 dark:hover:bg-zinc-800 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                                            </svg>
                                         </div>
                                     </a>
                                     <a href="https://github.com/z0mbiebrad" target="_blank" title="GitHub Profile">
                                         <div
-                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-400 dark:hover:bg-zinc-700 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
+                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-400 dark:hover:bg-zinc-800 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
                                             <svg class="h-6 text-neutral-600 dark:text-neutral-300"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 496 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -57,7 +59,7 @@
                                     <a href="https://linkedin.com/in/bradleytevans" target="_blank"
                                         title="LinkedIn Profile">
                                         <div
-                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-400 dark:hover:bg-zinc-700 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
+                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-400 dark:hover:bg-zinc-800 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
                                             <svg class="h-6 text-neutral-600 dark:text-neutral-300"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -72,15 +74,14 @@
                     </div>
                 </div>
                 <form action="#" method="POST" class="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48">
-                    <div class="w-full mx-auto lg:mr-0 lg:max-w-lg px-12">
+                    <div class="w-full px-4 mx-auto lg:mr-0 lg:max-w-lg md:px-12">
                         <div class="flex flex-col my-8 gap-x-8 gap-y-6 sm:grid-cols-2">
                             <div class="sm:col-span-2">
                                 <label for="email" class="block font-semibold text-sm/6 dark:text-white" required>
                                     Email
                                 </label>
                                 <div class="mt-2.5">
-                                    <input type="email" name="email" id="email" autocomplete="email"
-                                        required
+                                    <input type="email" name="email" id="email" autocomplete="email" required
                                         class="block w-full rounded-md border-0 dark:bg-white/5 px-3.5 py-2 dark:text-white shadow-2xs ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm/6">
                                 </div>
                             </div>
