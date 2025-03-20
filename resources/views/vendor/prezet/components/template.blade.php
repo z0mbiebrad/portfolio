@@ -108,7 +108,7 @@
 
         @vite(['resources/css/prezet.css'])
     </head>
-    <body class="font-sans antialiased dark:bg-black">
+    <body class="font-sans antialiased dark:bg-zinc-900 bg-zinc-100">
         <div class="min-h-screen">
             <x-prezet::alpine>
                 <x-prezet::header />

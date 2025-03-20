@@ -1,15 +1,6 @@
 <header
-    class="top-0 z-50 flex flex-wrap items-center justify-between flex-none px-4 py-5 transition duration-500 bg-white shadow-md dark:bg-zinc-900 dark:text-white shadow-gray-900/5 sm:px-6 lg:px-8"
+    class="top-0 z-50 flex flex-wrap items-center justify-between flex-none px-4 py-5 transition duration-500 bg-zinc-100 dark:bg-zinc-900 dark:text-white shadow-gray-900/5 sm:px-6 lg:px-8"
 >
-    <div class="relative flex items-center grow basis-0">
-        <a
-            aria-label="Home"
-            href="{{ route('home') }}"
-            class="flex items-center space-x-2"
-        >
-            <x-prezet::logo />
-        </a>
-    </div>
     <div
         class="relative flex items-center justify-end gap-3 basis-0 sm:gap-8 md:grow lg:gap-6"
     >

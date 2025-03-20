@@ -40,7 +40,7 @@
                            
                         <button type="button" class="mt-8 whitespace-nowrap rounded-lg bg-transparent rounded-radius border border-surface-dark px-4 py-2 text-sm font-medium tracking-wide text-surface-dark transition hover:opacity-75 text-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface">
                             <a 
-                                href="#services"
+                                href="#projects"
                                 class="flex text-base lg:text-lg gap-x-1"
                             >
                                 <x-command />
@@ -49,7 +49,7 @@
                         </button>
                         <button type="button" class="mt-8 whitespace-nowrap rounded-lg bg-transparent rounded-radius border border-surface-dark px-4 py-2 text-sm font-medium tracking-wide text-surface-dark transition hover:opacity-75 text-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface">
                             <a 
-                                href="#services"
+                                href="#contact"
                                 class="flex text-base lg:text-lg gap-x-1"
                             >
                                 Contact
