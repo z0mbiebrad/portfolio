@@ -38,19 +38,19 @@
                         </p>
                         <div class="flex items-center justify-center mt-10 font-semibold gap-x-6 dark:text-white">
                            
-                        <button type="button" class="px-4 py-2 mt-8 text-sm font-medium tracking-wide text-center transition bg-transparent border rounded-lg whitespace-nowrap rounded-radius border-surface-dark text-surface-dark hover:opacity-75 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface hover:scale-110 hover:cursor-pointer">
+                        <button type="button" class="px-4 py-2 mt-8 text-sm font-medium tracking-wide text-center transition bg-transparent border-2 rounded-lg whitespace-nowrap rounded-radius border-zinc-900 text-surface-dark hover:opacity-75 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface hover:scale-110 hover:cursor-pointer hover:-rotate-2">
                             <a 
                                 href="#projects"
-                                class="flex text-base lg:text-lg gap-x-1"
+                                class="flex text-base lg:text-lg gap-x-1 hover:rotate-2"
                             >
                                 <x-command />
                                 Projects
                             </a> 
                         </button>
-                        <button type="button" class="px-4 py-2 mt-8 text-sm font-medium tracking-wide text-center transition bg-transparent border rounded-lg whitespace-nowrap rounded-radius border-surface-dark text-surface-dark hover:opacity-75 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface hover:scale-110 hover:cursor-pointer">
+                        <button type="button" class="px-4 py-2 mt-8 text-sm font-medium tracking-wide text-center transition bg-transparent border-2 rounded-lg whitespace-nowrap rounded-radius border-zinc-900 text-surface-dark hover:opacity-75 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-dark active:opacity-100 active:outline-offset-0 disabled:opacity-75 disabled:cursor-not-allowed dark:border-surface dark:text-surface dark:focus-visible:outline-surface hover:scale-110 hover:cursor-pointer hover:rotate-2">
                             <a 
                                 href="#contact"
-                                class="flex text-base lg:text-lg gap-x-1"
+                                class="flex text-base lg:text-lg gap-x-1 hover:-rotate-2"
                             >
                                 Contact
                                 <x-chat />

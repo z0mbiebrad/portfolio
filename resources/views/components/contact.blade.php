@@ -37,7 +37,7 @@
                                 <dd class="flex items-center">
                                     <a href="mailto:bradleyt.evans@gmail.com" title="Email Me">
                                         <div
-                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-400 dark:hover:bg-zinc-800 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
+                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-200 dark:hover:bg-zinc-800 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-6">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -47,7 +47,7 @@
                                     </a>
                                     <a href="https://github.com/z0mbiebrad" target="_blank" title="GitHub Profile">
                                         <div
-                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-400 dark:hover:bg-zinc-800 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
+                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-200 dark:hover:bg-zinc-800 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
                                             <svg class="h-6 text-neutral-600 dark:text-neutral-300"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 496 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -59,7 +59,7 @@
                                     <a href="https://linkedin.com/in/bradleytevans" target="_blank"
                                         title="LinkedIn Profile">
                                         <div
-                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-400 dark:hover:bg-zinc-800 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
+                                            class="p-2 cursor-pointer text-neutral-600 hover:bg-zinc-200 dark:hover:bg-zinc-800 hover:rounded-md hover:text-black hover:cursor-pointer dark:text-neutral-300 dark:hover:text-white">
                                             <svg class="h-6 text-neutral-600 dark:text-neutral-300"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
