@@ -21,9 +21,9 @@
     <form action="{{ route('contact.store') }}" method="POST" class="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48">
         @csrf
         <div class="relative isolate bg-zinc-100 dark:bg-zinc-900">
-            <div class="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2 bg-zinc-200 dark:bg-zinc-800 rounded-lg">
+            <div class="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2 bg-zinc-200 dark:bg-zinc-800 rounded-lg px-24 py-10">
                 <div class="relative px-6 mt-9 pb-20 lg:static lg:px-8">
-                    <div class="mx-auto lg:mx-0 lg:max-w-lg">
+                    <div class="mx-auto lg:mx-0 lg:max-w-lg bg-zinc-300 p-8 rounded-lg dark:bg-zinc-700">
                         <h2 class="text-4xl font-semibold tracking-tight text-pretty dark:text-white sm:text-5xl">Get in
                             touch
                         </h2>
