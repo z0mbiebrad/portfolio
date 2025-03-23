@@ -12,7 +12,7 @@
         'url' => route('prezet.show', ['slug' => $frontmatter->slug]),
         'image' => $frontmatter->image,
     ])
-    <div class="text-base font-medium leading-6 py-6">
+    <div class="py-6 text-base font-medium leading-6">
         <a
             class="text-primary-500 hover:text-primary-600"
             aria-label='Read more: "Release of Tailwind Nextjs Starter Blog v2.0"'
@@ -29,18 +29,18 @@
 
     {{-- Main Content --}}
     <article>
-        <header class="mb-9 space-y-1">
-            <p class="font-display text-sm font-medium text-primary-600">
+        <header class="space-y-1 mb-9">
+            <p class="text-sm font-medium font-display text-primary-600">
                 {{ $frontmatter->category }}
             </p>
             <h1
-                class="font-display text-4xl font-medium tracking-tight text-gray-900 dark:text-white"
+                class="text-4xl font-medium tracking-tight text-gray-900 font-display dark:text-white"
             >
                 {{ $frontmatter->title }}
             </h1>
         </header>
         <div
-            class="dark:prose-invert dark:prose-pre:bg-zinc-900 dark:prose-pre:text-white prose-headings:font-display prose prose-gray max-w-none prose-a:border-b prose-a:border-dashed prose-a:border-black/30 prose-a:font-semibold prose-a:no-underline prose-a:hover:border-solid prose-img:rounded-sm"
+            class="prose dark:prose-invert dark:prose-pre:bg-zinc-800 dark:prose-pre:text-white prose-code:text-white prose-code:bg-zinc-700 prose-headings:font-display prose-zinc max-w-none prose-a:border-b prose-a:border-dashed prose-a:border-black/30 prose-a:font-semibold prose-a:no-underline prose-a:hover:border-solid prose-img:rounded-sm"
         >
             {!! $body !!}
         </div>
@@ -54,7 +54,7 @@
             <nav aria-labelledby="on-this-page-title" class="w-56">
                 <p
                     id="on-this-page-title"
-                    class="font-display text-sm font-medium text-gray-900 dark:text-gray-100"
+                    class="text-sm font-medium text-gray-900 font-display dark:text-gray-100"
                 >
                     On this page
                 </p>
@@ -73,7 +73,7 @@
                             @if ($h2['children'])
                                 <ol
                                     role="list"
-                                    class="mt-2 space-y-3 border-l pl-5"
+                                    class="pl-5 mt-2 space-y-3 border-l"
                                 >
                                     @foreach ($h2['children'] as $h3)
                                         <li>
